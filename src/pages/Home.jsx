@@ -83,8 +83,8 @@ export default function Home() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <div className="text-center mb-8 sm:mb-12">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
+      <div className="text-center mb-6 sm:mb-8">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-2 sm:mb-3 tracking-tight">
           Free Online PDF Tools
         </h1>
         <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
@@ -94,7 +94,7 @@ export default function Home() {
       </div>
 
       {/* Tool Cards - Full width grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 mb-10 sm:mb-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5 mb-6 sm:mb-8">
         {tools.map((tool) => (
           <Link
             key={tool.path}
@@ -117,12 +117,12 @@ export default function Home() {
       </div>
 
       {/* Ad Banner */}
-      <div className="mb-10 sm:mb-16">
+      <div className="mb-6 sm:mb-8">
         <AdBanner slot="XXXXXXXXXX" format="horizontal" />
       </div>
 
       {/* Features Section */}
-      <div className="bg-white rounded-xl sm:rounded-2xl border border-gray-200 p-6 sm:p-8 lg:p-10">
+      <div className="bg-white rounded-xl sm:rounded-2xl border border-gray-200 p-5 sm:p-6 lg:p-8">
         <h3 className="text-center text-xs sm:text-sm font-semibold text-gray-400 uppercase tracking-wider mb-6 sm:mb-8">
           Why choose PDF Toolkit?
         </h3>
